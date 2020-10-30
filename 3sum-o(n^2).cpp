@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include<vector>
+#include <iterator>
+#include <set>
 class Solution {
 public:
     std::vector<vector<int>> threeSum(std::vector<int>& nums) {
