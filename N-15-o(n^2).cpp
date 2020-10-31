@@ -1,10 +1,6 @@
-#include<stdio.h>
-#include<vector>
-#include <iterator>
-#include <set>
 class Solution {
 public:
-    std::vector<vector<int>> threeSum(std::vector<int>& nums) {
+    vector<vector<int>> threeSum(vector<int>& nums) {
         int l= nums.size(),i,j;
         set<vector<int>> fin;
         vector<int>demo;

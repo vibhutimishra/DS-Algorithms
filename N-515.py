@@ -4,7 +4,7 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:
-    def largestValues(self,root):
+    def largestValues(self, root: TreeNode):
         level=0
         ans=[]
         if root==None:
@@ -12,7 +12,7 @@ class Solution:
         ans.append(root.val)
         self.re(root,level,ans)
         return ans
-
+        
     def re(self,root,level,ans):
         if root==None:
             return

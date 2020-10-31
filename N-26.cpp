@@ -1,8 +1,6 @@
-#include<stdio.h>
-#include<vector>
 class Solution {
 public:
-    int removeDuplicates(std::vector<int>& nums) {
+    int removeDuplicates(vector<int>& nums) {
         int p,q,s;
         int l = nums.size();
         if (l==0){
